@@ -36,9 +36,9 @@ alert("Olá " + nome1 +" "+ nome2);
 }
 
 function Ex3(){
-let valor1 = parseFloat(prompt("Digite um valor em Real: "));
+ valor1 = parseFloat(prompt("Digite um valor em Real: "));
 let precoDolar = valor1 * 5.25;
-let arredondado = Math.round( precoDolar);
+let arredondado = Math.round(precoDolar);
 alert("Seu dinheiro em dólar é: US$" + arredondado);
 }
 
